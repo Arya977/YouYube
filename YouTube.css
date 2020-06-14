@@ -1,0 +1,439 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: inherit;
+    text-decoration: none;
+}
+#topBar{
+    display: flex;
+    justify-content: space-between;
+}
+#topLeft{
+    margin-left: 1.5rem;
+}
+#lines{
+   position: relative; bottom: 7px;
+}
+#youtubeLogo{
+    height: 1.8rem;
+    margin-top: .8rem;
+    margin-left: 1.2rem;
+}
+#topMid{
+    margin-top: .9rem;
+    margin-left: 2.8rem;
+}
+#searchBar{
+    width: 35rem;
+    margin-left: -2.3rem;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-color: black;
+    height: 1.4rem;
+    padding: 14px 0px;
+    border-right-width: 1.2px;
+}
+#search{
+    color: rgb(150, 149, 149);
+    background-color: rgb(245, 243, 243);
+    padding: .4rem 1.2rem;
+    position: relative; top: .5px;
+    margin-left: -5.3px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    font-size: .88rem;
+}
+#search:hover {
+    background-color: rgb(231, 229, 229);
+    color: black;
+}
+#topRight{
+    margin-top: 1.1rem;
+    font-size: 1.2rem;
+    color: rgb(114, 114, 114);
+}
+#user{
+    margin-right: 1.8rem;
+}
+#bell{
+    margin-right: 1.8rem;
+}
+#apps{
+        margin-right: 1.8rem;
+}
+#camera{
+    margin-right: 1.8rem;
+}
+/* .cameraText{
+    visibility: hidden;
+    width: 50px;
+    background-color: rgb(124, 124, 124);
+    color: white;
+    text-align: center;
+    border-radius: 2px;
+    padding: 7px 5px;
+    position: relative; right: 23px; top: 10px;
+    z-index: 1;
+}
+
+#camera:hover .cameraText {
+    visibility: visible;
+} */
+#leftScroll{
+    margin-left: 0;
+    margin-top: 1.2rem;
+    overflow-y: hidden;
+    width: 16rem;
+    height: 49.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .88rem;
+    font-weight: 500;
+}
+#leftScroll:hover{
+    overflow-y: scroll;
+
+}
+#homeIcon{
+    color: red;
+    font-size: 1.2rem;
+}
+#home{
+    background-color: rgb(219, 218, 218);
+    padding-left: 1.25rem;
+    padding-top: .6rem;
+    padding-bottom: .8rem;
+
+}
+#home:hover{
+    background-color: rgb(180, 179, 179);
+}
+#trending{
+    padding-top: .6rem;
+    padding-bottom: .8rem;
+}
+#trending:hover {
+    background-color: rgb(231, 229, 229);
+}
+#fireIcon{
+    font-size: 1.2rem;
+    padding-left: 1.4rem;
+}
+#subs{
+    padding-top: .6rem;
+    padding-bottom: .8rem;
+    margin-bottom: .8rem;
+}
+#subs:hover {
+    background-color: rgb(231, 229, 229);
+}
+#subIcon{
+    font-size: 1.2rem;
+    padding-left: 1.35rem;
+
+}
+hr{
+    color: rgb(219, 218, 218);
+}
+#library{
+    padding-top: .6rem;
+    padding-bottom: .8rem;
+    margin-top: .8rem;
+}
+#library:hover{
+    background-color: rgb(231, 229, 229);
+
+}
+#libraryIcon{
+    font-size: 1.2rem;
+    padding-left: 1.3rem;
+}
+#history{
+    padding-top: .6rem;
+    padding-bottom: .8rem;
+
+}
+#history:hover{
+    background-color: rgb(231, 229, 229);
+
+}
+#historyIcon{
+    font-size: 1.2rem;
+    padding-left: 1.35rem;
+}
+#watchLater{
+    padding-top: .6rem;
+    padding-bottom: .8rem;
+
+}
+#watchLater:hover{
+    background-color: rgb(231, 229, 229);
+}
+#watchLaterIcon{
+    font-size: 1.2rem;
+    padding-left: 1.35rem;
+
+}
+#likedVideos{
+    padding-top: .6rem;
+    padding-bottom: .8rem;
+    margin-bottom: .8rem;
+}
+#likedVideos:hover {
+    background-color: rgb(231, 229, 229);
+
+}
+#likedVideosIcon{
+    font-size: 1.2rem;
+    padding-left: 1.35rem;
+
+}
+#SUBSCRIPTIONS{
+    margin-left: 1rem;
+    margin-top: .8rem;
+    margin-bottom: 1.2rem;
+    font-weight: 600;
+
+}
+#chevron{
+    padding-top: .6rem;
+    padding-bottom: .8rem;
+}
+#chevron:hover{
+    background-color: rgb(231, 229, 229);
+}
+#chevronIcon{
+    font-size: 1.2rem;
+    padding-left: 1.1rem;
+}
+#browseChannels{
+    padding-top: .6rem;
+    padding-bottom: .8rem;
+    margin-bottom: .8rem;
+}
+#browseChannels:hover{
+    background-color: rgb(231, 229, 229);
+}
+#browseChannelsIcon{
+    font-size: 1.2rem;
+    padding-left: 1.2rem;
+}
+#gaming{
+    padding-top: .6rem;
+    padding-bottom: .8rem;
+}
+#gaming:hover{
+    background-color: rgb(231, 229, 229);
+}
+#gamingIcon{
+    font-size: 1.2rem;
+    padding-left: 1.1rem;
+}
+#live{
+    padding-top: .6rem;
+    padding-bottom: .8rem;
+    margin-bottom: .8rem;
+
+}
+#live:hover {
+    background-color: rgb(231, 229, 229);
+
+}
+#liveIcon{
+    font-size: 1.2rem;
+    padding-left: 1.1rem;
+
+}
+#settings{
+    padding-top: .6rem;
+    padding-bottom: .8rem;
+    margin-top: .8rem;
+
+}
+#settings:hover{
+    background-color: rgb(231, 229, 229);
+
+}
+#settingsIcon{
+    font-size: 1.2rem;
+    padding-left: 1.1rem;
+}
+#reportHistory{
+    padding-top: .6rem;
+    padding-bottom: .8rem;
+}
+#reportHistory:hover{
+    background-color: rgb(231, 229, 229);
+
+}
+#reportHistoryIcon{
+    font-size: 1.2rem;
+    padding-left: 1.1rem;
+}
+#help{
+    padding-top: .6rem;
+    padding-bottom: .8rem;
+}
+#help:hover{
+    background-color: rgb(231, 229, 229);
+
+}
+#helpIcon{
+    font-size: 1.2rem;
+    padding-left: 1.1rem;
+}
+#sendFeedback{
+    padding-top: .6rem;
+    padding-bottom: .8rem;
+    margin-bottom: .8rem;
+}
+#sendFeedback:hover{
+    background-color: rgb(231, 229, 229);
+
+}
+#sendFeedbackIcon{
+    font-size: 1.2rem;
+    padding-left: 1.1rem;
+}
+
+.bottomLeft{
+    margin-left: 1rem;
+    font-weight: 600;
+    font-size: 12px;
+}
+#bottomLeft{
+    margin-top: 1rem;
+}
+.bottomLeft2{
+    margin-left: 1rem;
+    font-weight: 600;
+    font-size: 12px;
+
+}
+#bottomLeft2{
+    margin-top: 1rem;
+  
+}
+
+.bottomLeft3{
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-bottom: 1.5rem;
+    color: grey;
+    font-size: 12px;
+}
+
+.body{
+    display: flex;
+}
+#showAd{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .8rem;
+    position: absolute; left: 52rem; top: 5rem;
+    background-color:rgb(231, 229, 229);
+    height: 1.5rem;
+    border-radius: 2px;
+    padding-top: .7rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+
+#longLine1{
+    width: 75rem;
+    position: absolute; top: 9rem;left: 17rem;
+    color: grey;
+}
+#longLine2{
+    width: 75rem;
+    position: absolute; top: 12.4rem;left: 17rem;
+    color: grey;
+}
+
+/* .recommendations{
+    display: flex;
+    justify-content: space-evenly;
+    overflow-x: hidden;
+    width: 70rem;
+    position: absolute; left: 18rem; top: 9.5rem;
+}
+.recommendations:hover{
+    overflow-x: scroll;
+}
+.reco{
+    margin-right: 10rem;
+} */
+
+.images{
+    width: 78rem;
+    margin-top: 10rem;
+    margin-left: 1.8rem;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    height: 40rem;
+}
+.images:hover{
+    overflow-y: scroll;
+
+}
+
+.imageText{
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#imageText1{
+    margin-top: 1rem;
+}
+#imageText2{
+    margin-top: 1rem;
+    position: relative; bottom: 3.2rem; left: 18.5rem;
+
+}
+#imageText3{
+    margin-top: 1rem;
+    position: relative; bottom: 6.5rem; left: 37.6rem;
+
+}
+#imageText4{
+    margin-top: 1rem;
+    position: relative; bottom: 9.7rem; left: 55.5rem;
+
+}
+
+.views{
+    position: relative; bottom: 9.7rem;
+
+}
+#views1{
+    margin-left: 2rem;
+}
+#views2{
+    margin-left: 8rem;
+}
+#views3{
+    margin-left: 8rem;
+}
+#views4{
+    margin-left: 7.5rem;
+}
+
+.secondLineImages{
+    position: relative; bottom: 8rem;
+
+}
+
+.thirdLineImages{
+    position: relative; bottom: 16rem;
+
+}
+.fourthLineImages{
+    position: relative; bottom: 22rem;
+
+}
+
+
+
+
